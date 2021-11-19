@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <title>Tela Filmes</title>
+</head>
+
+<body class="fundo-verde">
+
+    <!-- barra lateral inicio -->
+    <nav class="navbar navbar-light bg-light shadow ">
+        <div class="container-fuid">
+            <span class="navbar-brand mb-0 h1 ">MENU</span>
+            <button class="navbar-toggler btn btn-outline-dark" type="button" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content fundo-verde">
+                <div class="modal-header fundo-verde">
+                    <h5 class="modal-title fundo-verde" id="exampleModalLabel">MENU</h5>
+                    <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <ul class="list-group list-group-flush fundo-verde">
+                        <li class="list-group-item fundo-verde">
+                            <a href="C:\Users\Wellengton Machado\Desktop\fullstackeletro\PrintWayy\salas.html"
+                                class="btn btn-outline-dark custom-botao-menu" role="button"
+                                aria-pressed="true">Salas</a>
+                        </li>
+                        <li class="list-group-item fundo-verde">
+                            <a href="C:\Users\Wellengton Machado\Desktop\fullstackeletro\PrintWayy\Filmes.html"
+                                class="btn btn-outline-dark  custom-botao-menu" role="button"
+                                aria-pressed="true">Filmes</a>
+                        </li>
+                        <li class="list-group-item fundo-verde ">
+                            <a href="C:\Users\Wellengton Machado\Desktop\fullstackeletro\PrintWayy\SessãoFilmes.html"
+                                class="btn btn-outline-dark custom-botao-menu" role="button"
+                                aria-pressed="true">Sessões</a>
+                        </li>
+                    </ul>
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- barra lateral fim -->
+
+    <p>
+    <h3 class="text-center titulos-paginas">FILMES</h3>
+    </p>
+
+    <div class="container">
+        <form class="form-inline">
+            <input type="image" src="https://cdn.icon-icons.com/icons2/1862/PNG/512/addnewdocument_118445.png"
+                class="botao custom-imagem-adicionar">
+            <button class="btn btn-outline-dark my-2 my-sm-0 custom-botao-pesquisa" type="submit">Pesquisar</button>
+            <input class="form-control mr-sm-2 custom-caixa-pesquisa" type="search" placeholder="Pesquisar..."
+                aria-label="Pesquisar">
+        </form>
+    </div>
+
+    <div class="container ">
+        <div class="row">
+            <table class="table table-hover conteiner">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Titulo</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Duração</th>
+                        <th scope="col">Operação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><img class="custom-img-filme"
+                                src="https://upload.wikimedia.org/wikipedia/pt/5/52/No_Time_to_Die.jpg" alt=""></th>
+                        <td>007 - Sem Tempo para Morrer</td>
+                        <td>James Bond deixa o MI6 e se muda para a Jamaica, mas um antigo amigo aparece e pede sua
+                            ajuda para encontrar um cientista desaparecido. Bond mergulha no caso e percebe que a busca
+                            é, na verdade, uma corrida para salvar o mundo.</td>
+                        <td>2h 43m</td>
+                        <th><input type="image"
+                                src="https://cdn.icon-icons.com/icons2/1154/PNG/512/1486564394-edit_81508.png"
+                                class="botao custom-img-operacao">
+                            <input type="image"
+                                src="https://cdn.icon-icons.com/icons2/1154/PNG/512/1486564399-close_81512.png"
+                                class="botao custom-img-operacao">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><img class="custom-img-filme"
+                                src="https://br.web.img3.acsta.net/pictures/14/10/31/20/39/476171.jpg"></th>
+                        <td>Interestelar</td>
+                        <td>As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a
+                            missão de verificar possíveis planetas para receberem a população mundial, possibilitando a
+                            continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que
+                            pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um
+                            novo lar.</td>
+                        <td>2h 49m</td>
+                        <td><input type="image"
+                                src="https://cdn.icon-icons.com/icons2/1154/PNG/512/1486564394-edit_81508.png"
+                                class="botao custom-img-operacao">
+                            <input type="image"
+                                src="https://cdn.icon-icons.com/icons2/1154/PNG/512/1486564399-close_81512.png"
+                                class="botao custom-img-operacao">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

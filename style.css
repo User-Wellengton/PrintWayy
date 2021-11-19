@@ -1,0 +1,81 @@
+body,
+html {
+  height: 100%;
+}
+
+.login-container {
+  width: 600px;
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+}
+
+table,
+thead,
+tr,
+tbody,
+th,
+td {
+  text-align: center;
+}
+
+/* barra lateral */
+.modal {
+  width: 300px;
+}
+
+.modal-content {
+  width: 300px;
+}
+
+.list-group-item:hover {
+  background-color: rgb(45, 57, 57, 0.164);
+}
+/* barra lateral */
+
+.fundo-verde {
+  background-color: rgb(227, 230, 243);
+}
+.titulos-paginas {
+  width: 100%;
+  padding: 20px;
+  background:  rgb(176, 180, 197);
+}
+
+.custon-table {
+  width: 900px;
+}
+
+.custom-botao-menu {
+  width: 90px;
+}
+
+/* barra lateralde busca */
+
+.custom-caixa-pesquisa {
+  width: 250px;
+  float:right;
+}
+
+.custom-botao-pesquisa {
+  width: 100px;
+  float:right;
+  margin: 5px;
+}
+.custom-imagem-adicionar{
+  width: 50px;
+  height: 50px;
+}
+
+.custom-img-filme{
+  width: 150px;
+  height: 200px;
+}
+
+.custom-img-operacao{
+  width: 30px;
+  height: 30px;
+}
